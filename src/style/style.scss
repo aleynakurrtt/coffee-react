@@ -1,8 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+$primary-color: rgba(68, 34, 18);
 
 .navbar {
-    background-color: rgba(68, 34, 18);
+    background-color: $primary-color;
     padding-bottom: 10px;
 
     .navbar-brand {
@@ -23,12 +24,50 @@
     background-repeat: no-repeat;
     background-repeat: 100%;
     padding: 60px 80px;
-    border-radius: 10px;
     margin-top: 30px;
 
     .welcome {
-        color: rgba(68, 34, 18);
+        color: $primary-color;
         font-size: 50px;
-        font-weight: 300;
+        font-weight: 600;
+        margin-bottom: 10px;
     }
+
+    .quality {
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .firstButton {
+        padding: 10px 20px;
+        background-color: rgb(109, 49, 21);
+        color: wheat;
+        margin-top: 10px;
+    }
+}
+
+.features {
+    margin-top: 80px;
+
+    .card {
+        padding: 40px 0 40px 0;
+        border: none;
+        background-color: rgb(210, 223, 223);
+
+        .card-title {
+            color: $primary-color;
+            font-weight: 800;
+        }
+
+        .card-text {
+            font-weight: 500;
+        }
+    }
+
+}
+
+
+.foot {
+    margin-top: 40px;
 }

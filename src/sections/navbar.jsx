@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/style.scss'
 
+
 function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg">

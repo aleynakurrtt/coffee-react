@@ -1,0 +1,34 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.navbar {
+    background-color: rgba(68, 34, 18);
+    padding-bottom: 10px;
+
+    .navbar-brand {
+        color: wheat;
+        font-size: 30px;
+        margin-left: 100px;
+    }
+
+    .nav-link {
+        margin-right: 40px;
+        color: wheat;
+    }
+}
+
+.hero {
+    background-image: url(cccc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-repeat: 100%;
+    padding: 60px 80px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+    .welcome {
+        color: rgba(68, 34, 18);
+        font-size: 50px;
+        font-weight: 300;
+    }
+}

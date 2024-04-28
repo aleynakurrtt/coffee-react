@@ -1,4 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 $primary-color: rgba(68, 34, 18);
 
@@ -12,61 +13,82 @@ $primary-color: rgba(68, 34, 18);
         margin-left: 100px;
     }
 
+    .navbar-nav {
+        margin-right: 80px;
+    }
+
     .nav-link {
-        margin-right: 40px;
+        gap: 20px;
         color: wheat;
     }
 }
 
 .hero {
-    background-image: url(cccc.jpg);
+    background-image: url(tr_img_2_5.jpg);
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-repeat: 100%;
     padding: 60px 80px;
     margin-top: 30px;
+    border-radius: 10px;
 
     .welcome {
         color: $primary-color;
-        font-size: 50px;
-        font-weight: 600;
-        margin-bottom: 10px;
+        font-size: 60px;
+        font-weight: 900;
+        display: flex;
+        margin-top: 50px;
+        margin-right: 80px;
+
     }
 
     .quality {
         color: black;
-        font-size: 15px;
-        font-weight: 500;
+        font-size: 19px;
+        font-weight: 900;
+        position: relative;
+        left: 730px;
+
     }
 
     .firstButton {
-        padding: 10px 20px;
+        padding: 10px 40px;
         background-color: rgb(109, 49, 21);
+        font-weight: 500;
+        font-size: 20px;
         color: wheat;
         margin-top: 10px;
+        position: relative;
+        left: 850px;
+
     }
 }
 
-.features {
-    margin-top: 80px;
+.card {
 
-    .card {
-        padding: 40px 0 40px 0;
-        border: none;
-        background-color: rgb(210, 223, 223);
+    background-color: rgb(248, 244, 244);
 
-        .card-title {
-            color: $primary-color;
-            font-weight: 800;
-        }
+    .titlee {
+        color: $primary-color;
+        font-size: 30px;
+        font-weight: 800;
 
-        .card-text {
-            font-weight: 500;
-        }
     }
 
-}
+    .descrip {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(66, 63, 63);
+    }
 
+    .pic-1 {
+        border-radius: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(14, 14, 14);
+    }
+}
 
 .foot {
     margin-top: 40px;
